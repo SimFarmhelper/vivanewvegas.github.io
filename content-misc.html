@@ -4,7 +4,7 @@
 <!--
 MIT License
 
-Copyright (c) 2019 Quinn Olore
+Copyright (c) 2020 Quinn Olore
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -43,11 +43,11 @@ SOFTWARE.
 <body>
     <div>
         <h1 class="maintitle">Viva New Vegas</h1>
-        <h4 class="subtitle"><em>A Comprehensive 2019 Fallout New Vegas Modding Guide</em></h4>
+        <h4 class="subtitle"><em>A Comprehensive 2020 Fallout New Vegas Modding Guide</em></h4>
         <hr class="line">
         <ul class="navbar">
-            <li class="navbarli"><a href="https://www.nexusmods.com/newvegas/mods/66139" target="_blank">Nexus</a></li>
-            <li class="navbarli"><a href="https://discord.gg/U3qVfFs" target="_blank">Discord</a></li>
+            <li class="navbarli"><a href="https://github.com/VivaNewVegas/Viva-New-Vegas-Patch-Emporium" target="_blank">GitHub</a></li>
+            <li class="navbarli"><a href="https://discord.gg/DhX5S27" target="_blank">Discord</a></li>
             <li class="navbarli"><a href="index.html">Home</a></li>
         </ul>
     </div>   
@@ -70,31 +70,6 @@ SOFTWARE.
                 <li>Right-click in the left pane of MO2 and select <strong>Create Separator</strong></li>
                 <li>Input <strong>Miscellaneous Content</strong> into the pop-up and select <strong>OK</strong></li>
             </ul>
-        <h2 class="modhead"><a class="modlink" href="https://www.nexusmods.com/newvegas/mods/67495?tab=files" target="_blank">Future Fallout Chems</a></h2>
-            <p class="specialinstall"><strong>Install normally</strong></p>
-            <br>
-            <p class="specialinstall"><strong>Manual FNVEdit Editing Required:</strong></p>
-                <ul class="specialinstructions">
-                        <li>Run FNVEdit through MO2</li>
-                        <li>Right-click in the <strong>Module Selection</strong> pop-up and click <strong>Select None</strong></li>
-                        <li>Check the box adjacent to <strong>Future Fallout Chems.esp</strong> then hold down left shift and click <strong>OK</strong></li>
-                        <li>Wait for the message <strong>Background Loader: finished</strong> to appear in the right pane</li>
-                        <li>Input <strong>01000E10</strong> into the FormID search box in the top left and hit enter</li>
-                        <li>In the right pane, right-click on the second listing of <strong>Quest Item / Persistent reference</strong> and select <strong>Remove</strong></li>
-                        <img id="FOMODImg" src="./img/futurechemsremove.png" alt="Right-click and select Remove" style="width:100%;max-width:300px">
-                        <div id="FOMODModal" class="modal">
-                            <img class="modal-content" id="img01">
-                            <div id="caption"></div>
-                        </div>
-                            <ul>
-                                <li>Stops the Empty Hydra Container added by the mod for crafting from being a quest item (so its visible in the inventory)</li>
-                            </ul>
-                        <li>Save and exit</li>
-                </ul>
-            <p class="moddesc"> - Adds variations of chems seen in Fallout 4/76 such as Buffjet, Psychotats, and Day Tripper</p>
-        <h2 class="modhead"><a class="modlink" href="https://www.nexusmods.com/newvegas/mods/66522?tab=files" target="_blank">FO76 Style Mutations</a></h2>
-            <p class="specialinstall"><strong>Install normally</strong></p>
-            <p class="moddesc"> - Adds the mutation system from Fallout 76 (similar to traits, acquired randomly while being irradiated)</p>
         <h2 class="modhead"><a class="modlink" href="https://www.nexusmods.com/newvegas/mods/67885?tab=files" target="_blank">A Trait Mod</a></h2>
             <p class="specialinstall"><strong>Install normally</strong></p>
             <p class="moddesc"> - 6 new lore friendly and balanced traits</p>
@@ -107,6 +82,16 @@ SOFTWARE.
                     <li>Right-click in the <strong>Module Selection</strong> pop-up and click <strong>Select None</strong></li>
                     <li>Check the box adjacent to <strong>Improved Traits.esp</strong> then hold down left shift and click <strong>OK</strong></li>
                     <li>Wait for the message <strong>Background Loader: finished</strong> to appear in the right pane</li>
+                    <li>Expand the <strong>Improved Traits.esp</strong> header in the left pane and the <strong>Perks</strong> header within it</li>
+                    <li>Right-click on <strong>One In a Million</strong> in the left pane and select <strong>Remove</strong></li>
+                        <img id="FOMODImg" src="./img/improvedtrats-fnvedit.png" alt="Right-click and select Remove" style="width:100%;max-width:300px">
+                        <div id="FOMODModal" class="modal">
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                        </div>
+                        <ul>
+                            <li>Removes a trait that was too overpowered</li>
+                        </ul>
                     <li>Input <strong>0200351A</strong> into the FormID search box in the top left and hit enter</li>
                     <li>In the right pane, right-click on the box adjacent to the empty box labeled <strong>Icon</strong> and select <strong>Add</strong></li>
                         <img id="FOMODImg2" src="./img/traitsadd.png" alt="Right-click and select Remove" style="width:100%;max-width:300px">
