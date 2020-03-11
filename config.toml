@@ -1,0 +1,4 @@
+baseURL = "https://vivanewvegas.github.io/"
+languageCode = "en-us"
+title = "Viva New Vegas"
+theme = "ananke"
